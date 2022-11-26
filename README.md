@@ -62,7 +62,7 @@
 }
 ~~~
 最终效果
-
+[!](https://raw.githubusercontent.com/zengogh/Typecho-login-page/main/v2-e0f65db9cc19785e87f994943bb19659_1440w.jpg)
 使用Css的flex布局登录框居中现实，使用伪类元素::before叠到登录框下方实现背景模糊。
 
 ### 注意 ：
