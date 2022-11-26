@@ -1,0 +1,55 @@
+/** new登录框 */
+.typecho-login-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-225deg, #ffecb3 0%, #17a2b8 50%, #77216f 100%);
+}
+.typecho-login {
+  width: 23rem;
+  height: 25rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgb(0, 0, 0, 0.5);
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+}
+.typecho-login::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255, 0.6);
+  border-radius: 1rem;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  filter: blur(1rem);
+}
+.typecho-login input {
+  border: 1px solid #77216f;
+  border-radius: 0.3rem;
+}
+.typecho-login button {
+  background: #77216f;
+  border-radius: 0.3rem;
+  letter-spacing: 2rem;
+  text-indent: 1rem;
+}
+.typecho-login button:hover {
+  background: #a96693;
+}
+.typecho-login h1 {
+  text-align: center;
+}
+.more-link {
+  border-top: 1px solid #77216f;
+}
+.typecho-login .more-link a {
+  display: inline-block;
+  text-align: center;
+  width: 48%;
+  padding-top: 1rem;
+  color: #77216f;
+}
